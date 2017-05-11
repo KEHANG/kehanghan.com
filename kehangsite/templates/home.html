@@ -1,42 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="kehang">
+{% extends "base.html" %}
 
-    <title>Kehang Han | Home</title>
+{% block title %}Home{% endblock %}
 
-    <!-- Bootstrap core CSS -->
-    <link href="/static/css/bootstrap.min.css" rel="stylesheet">
-    <link href="/static/css/jumbotron-narrow.css" rel="stylesheet">
-    <link href="/static/css/main.css" rel="stylesheet">
-    
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="/static/js/bootstrap.min.js"></script>
-
-  </head>
-
-  <body>
-
-    <div class="container">
-      <div class="header clearfix">
-        <nav>
-          <ul class="nav nav-pills pull-right">
-            <li role="presentation" class="active"><a href="/">Home</a></li>
-            <li role="presentation"><a href="http://kehang.github.io/">Blog</a></li>
-            <li role="presentation"><a href="./fun_projects.html">Fun Projects</a></li>
-            <li role="presentation"><a href="./research.html">Research</a></li>
-            <li role="presentation"><a href="./teach.html">Teach</a></li>
-            <li role="presentation"><a href="./about.html">About</a></li>
-            
-          </ul>
-        </nav>
-        <h3 class="text-muted">Kehang Han</h3>
-      </div>
-
+{% block photo%}
       <div id="best_photo" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#best_photo" data-slide-to="0" class="active"></li>
@@ -107,8 +73,11 @@
 
         </div>
       </div>
+{% endblock %}
 
-      <div class="home-bottom">
+{% block bottom%}
+
+<div class="home-bottom">
         <div class="home-bottom-box" style="width:35%;">
           <h4>Follow me</h4>          
           <a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button"><img alt="linkedIn" src="assets/social_media/linkedIn.png" style="width:50px;height:50px;"></a> &nbsp;
@@ -131,11 +100,4 @@
         </div>
       </div>
 
-      <footer class="footer">
-        <p>&copy; Kehang Han (<a href="mailto:hkh12@mit.edu">hkh12@mit.edu</a>)</p>
-      </footer>
-
-    </div> <!-- /container -->
-
-  </body>
-</html>
+{% endblock %}
