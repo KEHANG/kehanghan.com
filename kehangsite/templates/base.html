@@ -22,7 +22,7 @@
   <body>
 
     <div class="container">
-      <div class="header clearfix">
+      <div id="fix_nav_top" class="header clearfix navbar-fixed-top">
         <div class="row">
             <div class="col-md-4">
               <a class="navbar-brand" href='/'>Kehang Han</a>
@@ -31,7 +31,6 @@
             </div>
 
             <div class="col-md-8">
-              <nav>
                 <ul class="nav nav-pills pull-right">
                   <li role="presentation" class="active"><a class="nav_section" href="/">Home</a></li>
                   <li role="presentation"><a class="nav_section" href="./research.html">CV</a></li>
@@ -39,15 +38,18 @@
                   <li role="presentation"><a class="nav_section" href="http://kehang.github.io/">Blog</a></li>
                   <li role="presentation"><a class="nav_section" href="./about.html">News</a></li>
                 </ul>
-              </nav>
             </div>
 
           </div>
       </div>
 
+      <div id="photo" class="row">
       {% block photo%}{% endblock %}
+      </div> 
 
+      <div class="row">
       {% block bottom%}{% endblock %}
+      </div>
 
       <footer id="footer">
         <ul class="icons">

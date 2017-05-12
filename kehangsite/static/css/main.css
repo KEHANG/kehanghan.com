@@ -45,6 +45,16 @@
   color: white;
   background-color: grey;
 }
+
+#fix_nav_top {
+  padding-left: 290px;
+  padding-right: 290px; 
+  background-color: white;
+}
+
+#photo {
+  padding-top: 100px;
+}
 /* Footer */
 
 #footer {
