@@ -3,101 +3,61 @@
 {% block title %}Home{% endblock %}
 
 {% block photo%}
-      <div id="best_photo" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#best_photo" data-slide-to="0" class="active"></li>
-          <li data-target="#best_photo" data-slide-to="1"></li>
-          <li data-target="#best_photo" data-slide-to="2"></li>
-          <li data-target="#best_photo" data-slide-to="3"></li>
-          <li data-target="#best_photo" data-slide-to="4"></li>
-          <li data-target="#best_photo" data-slide-to="5"></li>
-          <li data-target="#best_photo" data-slide-to="6"></li>
-          <li data-target="#best_photo" data-slide-to="7"></li>
-        </ol>
-        <div class="carousel-inner" role="listbox">
-          <div class="item active">
-            <img src="/static/photos/Acadia/schoodic_shore.JPG" alt="Chania" class="img-responsive">
-            <div class="carousel-caption">
-              <h3>Schoodic Shore</h3>
-            </div>
-          </div>
+<div id="best_photo" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#best_photo" data-slide-to="0" class="active"></li>
+    <li data-target="#best_photo" data-slide-to="1"></li>
+    <li data-target="#best_photo" data-slide-to="2"></li>
+    <li data-target="#best_photo" data-slide-to="3"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
 
-          <div class="item">
-            <img src="/static/photos/Acadia/otter_cliffs.JPG" alt="Chania" class="img-responsive">
-            <div class="carousel-caption">
-              <h3>Otter Cliffs</h3>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="/static/photos/Acadia/sea_gull.JPG" alt="Chania" class="img-responsive">
-            <div class="carousel-caption">
-              <h3>Acadia Sea Gull</h3>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="/static/photos/Acadia/seawall.JPG" alt="Chania" class="img-responsive">
-            <div class="carousel-caption">
-              <h3>Acadia Seawall</h3>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="/static/photos/Switzerland/rhine_bridge.JPG" alt="Chania" class="img-responsive">
-            <div class="carousel-caption">
-              <h3>Rhine Fall Bridge</h3>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="/static/photos/Switzerland/sun_jungfraujoch.JPG" alt="Chania" class="img-responsive">
-            <div class="carousel-caption">
-              <h3>Jungfraujoch</h3>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="/static/photos/Netherlands/amsterdam_flower.JPG" alt="Flower" class="img-responsive">
-            <div class="carousel-caption">
-              <h3>Amsterdam Flower</h3>
-            </div>
-          </div>
-
-          <div class="item">
-            <img src="/static/photos/Netherlands/peace_night.JPG" alt="Flower" class="img-responsive">
-            <div class="carousel-caption">
-              <h3>Amsterdam Night</h3>
-            </div>
-          </div>
-
-        </div>
+    <div class="item active">
+      <img src="/static/photos/Acadia/sea_gull.JPG" alt="Chania" class="img-responsive">
+      <div class="carousel-caption">
+        <h3>Acadia Sea Gull</h3>
       </div>
+    </div>
+
+    <div class="item">
+      <img src="/static/photos/Switzerland/rhine_bridge.JPG" alt="Chania" class="img-responsive">
+      <div class="carousel-caption">
+        <h3>Rhine Fall Bridge</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/static/photos/Switzerland/sun_jungfraujoch.JPG" alt="Chania" class="img-responsive">
+      <div class="carousel-caption">
+        <h3>Jungfraujoch</h3>
+      </div>
+    </div>
+
+    <div class="item">
+      <img src="/static/photos/Netherlands/amsterdam_flower.JPG" alt="Flower" class="img-responsive">
+      <div class="carousel-caption">
+        <h3>Amsterdam Flower</h3>
+      </div>
+    </div>
+
+  </div>
+</div>
 {% endblock %}
 
 {% block bottom%}
 
 <div class="home-bottom">
-        <div class="home-bottom-box" style="width:35%;">
-          <h4>Follow me</h4>          
-          <a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button"><img alt="linkedIn" src="assets/social_media/linkedIn.png" style="width:50px;height:50px;"></a> &nbsp;
 
-          <a href="https://github.com/KEHANG"><img alt="github" src="assets/social_media/github.png" style="width:50px;height:50px;"></a> &nbsp;
+  <div class="home-bottom-box">
+    <h4>News</h4>
+    <p style="font-size:17px"><a href="https://github.com/ReactionMechanismGenerator/RMG-Py/releases/tag/2.1.0" style="color:#0080cc;text-decoration:none;font-weight:bold;">Kehang released RMG-Py v2.1.0</a> March 08, 2017.</p>
 
-          <a href="https://www.facebook.com/kehang.han"><img alt="facebook" src="assets/social_media/facebook.jpeg" style="width:50px;height:50px;"></a> 
+    <p style="font-size:17px"><a href="https://github.com/ReactionMechanismGenerator/RMG-Py/tree/2.0.0" style="color:#0080cc;text-decoration:none;font-weight:bold;">Kehang started serving as lead developer of RMG-Py, released version v2.0.0</a> Sep 17, 2016.</p>
 
-        </div>
+    <p style="font-size:17px"><a href="http://energyhack.mit.edu/" style="color:#0080cc;text-decoration:none;font-weight:bold;">Kehang won the Third Prize in MIT Energy Hackathon</a> Nov 15, 2015.</p>
 
-        <div class="home-bottom-box">
-          <h4>News</h4>
-          <p style="font-size:17px"><a href="https://github.com/ReactionMechanismGenerator/RMG-Py/releases/tag/2.1.0" style="color:#0080cc;text-decoration:none;font-weight:bold;">Kehang released RMG-Py v2.1.0</a> March 08, 2017.</p>
-
-          <p style="font-size:17px"><a href="https://github.com/ReactionMechanismGenerator/RMG-Py/tree/2.0.0" style="color:#0080cc;text-decoration:none;font-weight:bold;">Kehang starting serving as lead developer of RMG-Py, released version v2.0.0</a> Sep 17, 2016.</p>
-
-          <p style="font-size:17px"><a href="http://energyhack.mit.edu/" style="color:#0080cc;text-decoration:none;font-weight:bold;">Kehang won the Third Prize in MIT Energy Hackathon</a> Nov 15, 2015.</p>
-
-          <p style="font-size:17px"><a href="./photos/Germany/news_paper.pdf" style="color:#0080cc;text-decoration:none;font-weight:bold;">Kehang and his big data project on Shell Cover</a> Sep 01, 2015.</p>
-        </div>
-      </div>
+    <p style="font-size:17px"><a href="./photos/Germany/news_paper.pdf" style="color:#0080cc;text-decoration:none;font-weight:bold;">Kehang and his big data project on Shell Cover</a> Sep 01, 2015.</p>
+  </div>
+</div>
 
 {% endblock %}
