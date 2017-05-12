@@ -14,3 +14,6 @@
 archived/*
 static_site/*
 
+# launch script
+launch.sh
+
