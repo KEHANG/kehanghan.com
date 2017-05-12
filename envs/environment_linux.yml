@@ -1,0 +1,5 @@
+name: site_env
+channels:
+  - defaults
+dependencies:
+  - flask
