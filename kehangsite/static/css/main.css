@@ -18,6 +18,104 @@
   margin-bottom:50px;
 }
 
-.footer div {
-  max-width:980px;margin-left:auto;margin-right:auto;
+.navbar-brand {
+  padding-left: 0px;
+  font-size: 1.8em;
+  color: #000;
+  font-weight: 700;
+}
+
+#identity {
+  font-weight: 300;
+  line-height: 1.5;
+  color: grey;
+}
+
+.nav_section {
+  font-weight: 600;
+  color: #000;
+}
+
+.nav-pills>li.active>a {
+  color: black;
+  background-color: #e7e7e7;
+}
+
+.nav-pills>li>a:hover, .nav-pills>li.active>a:hover {
+  color: white;
+  background-color: grey;
+}
+/* Footer */
+
+#footer {
+  background-attachment: scroll;
+  bottom: auto;
+  left: auto;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+#footer .icons {
+  margin: 1em 0 0 0;
+}
+
+#footer .icons a {
+  color: #777;
+}
+
+#footer .icons a:hover {
+  color: #3355cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#footer .copyright {
+  color: #777;
+  font-size: 0.9em;
+  list-style: none;
+  margin: 1em 0 0 0;
+  padding: 0;
+}
+
+#footer .copyright li {
+  border-left: solid 1px #777;
+  display: inline-block;
+  line-height: 1em;
+  margin-left: 0.75em;
+  padding-left: 0.75em;
+}
+
+#footer .copyright li:first-child {
+  border-left: 0;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* List */
+
+  ul {
+  list-style: disc;
+  margin: 1em;
+  padding-left: 1em;
+}
+
+ul li {
+  padding: 0.5em 0;
+}
+
+ul.icons {
+  cursor: default;
+  list-style: none;
+  padding-left: 0;
+  font-size: 1.3em;
+}
+
+ul.icons li {
+  display: inline-block;
+  padding: 0 1em 0 0;
+}
+
+ul.icons li:last-child {
+  padding-right: 0;
 }
