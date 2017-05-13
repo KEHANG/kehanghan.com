@@ -32,11 +32,11 @@
 
             <div class="col-md-8">
                 <ul class="nav nav-pills pull-right">
-                  <li role="presentation" class="active"><a class="nav_section" href="/">Home</a></li>
-                  <li role="presentation"><a class="nav_section" href="./research.html">CV</a></li>
-                  <li role="presentation"><a class="nav_section" href="./fun_projects.html">Projects</a></li>
-                  <li role="presentation"><a class="nav_section" href="http://kehang.github.io/">Blog</a></li>
-                  <li role="presentation"><a class="nav_section" href="./about.html">News</a></li>
+                  <li role="presentation" class="{% if home %} active {% endif %}"><a class="nav_section" href="/">Home</a></li>
+                  <li role="presentation" class="{% if cv %} active {% endif %}"><a class="nav_section" href="static/docs/kehang_resume.pdf">CV</a></li>
+                  <li role="presentation" class="{% if projects %} active {% endif %}"><a class="nav_section" href="/projects">Projects</a></li>
+                  <li role="presentation" class="{% if blog %} active {% endif %}"><a class="nav_section" href="http://kehang.github.io/">Blog</a></li>
+                  <li role="presentation" class="{% if news %} active {% endif %}"><a class="nav_section" href="/news">News</a></li>
                 </ul>
             </div>
 
