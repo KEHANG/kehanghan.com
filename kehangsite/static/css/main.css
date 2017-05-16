@@ -101,6 +101,14 @@
   padding-left: 0;
 }
 
+/*Hover*/
+a:hover {
+  color: #3355cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
 /* List */
 
   ul {
@@ -128,3 +136,29 @@ ul.icons li {
 ul.icons li:last-child {
   padding-right: 0;
 }
+
+/*Projects*/
+
+td { padding: 10px 15px; vertical-align: center; }
+table { margin-bottom: 10px; }
+
+.cover_column {
+  width: 30%;
+}
+
+.cover_column img{
+  width: 100%;
+}
+
+/* Section */
+
+section {
+  border-top: solid 2px #efefef;
+}
+
+section:first-child {
+  border-top: 0;
+  padding-top: 0;
+}
+
+

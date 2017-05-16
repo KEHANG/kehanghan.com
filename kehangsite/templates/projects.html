@@ -1,3 +1,129 @@
 {% extends "base.html" %}
 
 {% block title %}Projects{% endblock %}
+
+{% block content%}
+
+<section>
+<h3>Machine Learning</h3>
+<table>
+  <tbody>
+    <tr>
+      <td class="cover_column">
+          <a href="http://srs.mit.edu"><img src="/static/img/projects/srs_cover.png"></a>
+      </td>
+      <td>
+        <h4>Aspect-based Product Review Summarizer</h4>
+        <p>
+        A web application that smartly classifies aspects of Amazon's product reviews and summarizes aspect-based sentiment. Two classifiers are implemented to achieve high accuracy; MaxEntropy (supervised learning) and word2vec (unsupervised learning). Four-step pipeline covers review scraping into database, aspect classification, sentiment scoring, front-end visualization.
+        </p>
+        <p>[<a href="https://github.com/MachineLearningStudyGroup/Smart_Review_Summarization">Github Code</a> |
+          <a href="http://srs.mit.edu">Website</a>]</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="cover_column">
+          <a href="http://kehangsblog.com/thermo_predictor/performance"><img src="/static/img/projects/molconv_cover.png"></a>
+      </td>
+      <td>
+        <h4>Molecule2Vec: Molecular ConvNets</h4>
+        <p>
+        Automatic kinetic model generation, reagent screening in drug discovery, and automatic transition state search are a few trending applications where a large space of molecules is to be explored based on thermodynamic properties. Existing approaches are either slow or inaccurate. This work provides a fast and accurate estimation method; <b>maps molecular graphs into learnable fingerprints</b> and improves prediction accuracy by a factor of 25.
+        </p>
+        <p>[<a href="https://github.com/ReactionMechanismGenerator/RMG-Py/tree/cnn_framework">Github Code</a> |
+          <a href="http://kehangsblog.com/thermo_predictor/performance">Website</a> | <a href="http://kehang.github.io/basic_project/2017/04/18/machine-learning-in-molecular-property-prediction/">Blog</a>]</p>
+      </td>
+    </tr>
+
+    <tr>
+      <td class="cover_column">
+          <a href="http://kehangsblog.com/thermo_central_db"><img src="/static/img/projects/thermo_central_db_cover.png"></a>
+      </td>
+      <td>
+        <h4>MolNet: A Central Database for Molecular Machines</h4>
+        <p>
+        MolNet is a central database of molecules with thermodynamic properties. It is a live growing database powered by <a href="https://github.com/ReactionMechanismGenerator/RMG-Py">RMG</a> users and <b>autoThermo</b>, which is my private package for large scale of quantum mechanics calculations. The MolNet continuously empowers molecular machine learners used in RMG and provides benchmarking data for the community.
+        </p>
+        <p>[<a href="https://github.com/ReactionMechanismGenerator/RMG-Py/tree/thermo_db">Github Code</a> |
+          <a href="http://kehangsblog.com/thermo_central_db">Website</a>]</p>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<section>
+<h3>Data Science</h3>
+<table>
+  <tbody>
+    <tr>
+      <td class="cover_column">
+          <a href="http://srs.mit.edu"><img src="/static/img/projects/srs_cover.png"></a>
+      </td>
+      <td>
+        <h4>Aspect-based Product Review Summarizer</h4>
+        <p>
+        A web application that smartly classifies aspects of Amazon's product reviews and summarizes aspect-based sentiment. Two classifiers are implemented to achieve high accuracy; MaxEntropy (supervised learning) and word2vec (unsupervised learning). Four-step pipeline covers review scraping into database, aspect classification, sentiment scoring, front-end visualization.
+        </p>
+        <p>[<a href="https://github.com/MachineLearningStudyGroup/Smart_Review_Summarization">Github Code</a> |
+          <a href="http://srs.mit.edu">Website</a>]</p>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<section>
+<h3>Web Development</h3>
+<table>
+  <tbody>
+    <tr>
+      <td class="cover_column">
+          <a href="http://s-p.mit.edu/"><img src="/static/img/projects/sidpac_cover.png"></a>
+      </td>
+      <td>
+        <h4>Sidney-Pacific: MIT Graduate Dorm Website</h4>
+        <p>
+        Sidney-Pacific website is one of the MIT dorm websites that have most exciting functionalities, which include automatic campus shuttle tracking, smart laundry reminder, inventory management and analysis system, real-time package notifications, house repairing and dorm events publicizing, etc. 
+        </br>
+        </br>
+        My contribution lies in both inventory and package systems.
+        </p>
+        <p>[<a href="http://s-p.mit.edu">Website</a>]</p>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+<section>
+<h3>Software Engineering</h3>
+<table>
+  <tbody>
+    <tr>
+      <td class="cover_column">
+          <a href="https://github.com/ReactionMechanismGenerator/RMG-Py/"><img src="/static/img/projects/rmg_cover.png"></a>
+      </td>
+      <td>
+        <h4>Reaction Mechanism Generator</h4>
+        <p>
+        Reaction Mechanism Generator (RMG) is one of the most popular software suite for automatically generating chemical reaction models for energy related systems including pyrolysis, combustion, atmospheric science, and more. 
+
+        </br>
+        </br> 
+        Currently I’m the lead developer of this project. Selected work covers
+        <li>Maintain and release new versions (now <a href="https://github.com/ReactionMechanismGenerator/RMG-Py/releases/tag/2.1.0">v2.1.0</a>)</li>
+        <li>RMG <a href="http://www.sciencedirect.com/science/article/pii/S0098135417300030">memory usage optimization</a> and parallelism</li>
+        <li>Integrate<a href="http://kehang.github.io/basic_project/2017/04/18/machine-learning-in-molecular-property-prediction/"> molecule2vec</a> into property prediction</li>
+        <li>Continuous-Integration-Test platform <a href="https://github.com/ReactionMechanismGenerator/RMG-tests/">RMG-tests</a></li>
+        </p>
+        <p>[<a href="https://github.com/ReactionMechanismGenerator/RMG-Py/">Github Code</a> |
+          <a href="http://rmg.mit.edu">Website</a>]</p>
+      </td>
+    </tr>
+
+  </tbody>
+</table>
+
+{% endblock %}
