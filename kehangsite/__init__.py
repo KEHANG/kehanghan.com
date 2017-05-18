@@ -1,11 +1,11 @@
 from flask import Flask, render_template
 
 from blueprints.projects import projects
-from blueprints.news import news
+from blueprints.about import about
 
 app = Flask(__name__)
 app.register_blueprint(projects, url_prefix='/projects')
-app.register_blueprint(news, url_prefix='/news')
+app.register_blueprint(about, url_prefix='/about')
 
 @app.route('/')
 def home():

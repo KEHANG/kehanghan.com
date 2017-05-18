@@ -161,4 +161,11 @@ section:first-child {
   padding-top: 0;
 }
 
+/* About */
+#content .alignleft, #content img.alignleft {
+    display: inline;
+    float: left;
+    margin-right: 24px;
+    margin-top: 4px;
+}
 
