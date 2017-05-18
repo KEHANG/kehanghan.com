@@ -164,7 +164,7 @@ section:first-child {
 /* About */
 #content .alignleft, #content img.alignleft {
     display: inline;
-    float: left;
+    float: right;
     margin-right: 24px;
     margin-top: 4px;
 }
