@@ -1,2 +1,2 @@
 source activate site_env
-sudo python run.py
+gunicorn --bind=0.0.0.0 --timeout 600 run:app --access-logfile access.log
